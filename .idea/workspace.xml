@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5bb1a9e3-7025-4851-a4d6-f88e0786725f" name="Default Changelist" comment="Included the code to dispaly the user details to the front end" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1gituwqQfklZ10TSjy1dkjSsuQ9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.14.1" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.12.62" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Node.js.helpers.js">
+    <configuration name="helpers.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/config/helpers.js" working-dir="$PROJECT_DIR$/config">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.helpers.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5bb1a9e3-7025-4851-a4d6-f88e0786725f" name="Default Changelist" comment="" />
+      <created>1598609469107</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598609469107</updated>
+      <workItem from="1598609471305" duration="5039000" />
+      <workItem from="1598674442562" duration="11293000" />
+      <workItem from="1598765870670" duration="642000" />
+      <workItem from="1598768702197" duration="692000" />
+      <workItem from="1598847795523" duration="6842000" />
+      <workItem from="1598935639480" duration="4526000" />
+      <workItem from="1599021611887" duration="5131000" />
+      <workItem from="1599110370316" duration="664000" />
+      <workItem from="1599193096095" duration="114000" />
+      <workItem from="1599452688063" duration="518000" />
+      <workItem from="1599898337337" duration="6253000" />
+      <workItem from="1600411353023" duration="12533000" />
+    </task>
+    <task id="LOCAL-00001" summary=" Backend code base commit to the git">
+      <created>1598610227845</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598610227845</updated>
+    </task>
+    <task id="LOCAL-00002" summary=" Backend code base commit to the git">
+      <created>1598631073463</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598631073463</updated>
+    </task>
+    <task id="LOCAL-00003" summary=" Backend code base commit to the git">
+      <created>1598631101287</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598631101287</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added the products and the orders api routine">
+      <created>1598700532543</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598700532543</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added the products and the orders api routine">
+      <created>1598710098137</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598710098137</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Removed the console log in the product page">
+      <created>1598768829017</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1598768829017</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Renamed the incart to inCart">
+      <created>1598862941475</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1598862941475</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Order id inclusion">
+      <created>1598871527127</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1598871527127</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Included the response headers for the cors issue">
+      <created>1598888522596</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1598888522596</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Included the userrs and auth routes and helper services">
+      <created>1598951448813</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1598951448813</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Included the userrs and auth routes and helper services">
+      <created>1598974769141</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1598974769141</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Included the code to dispaly the user details to the front end">
+      <created>1599055350831</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1599055350831</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=" Backend code base commit to the git" />
+    <MESSAGE value="Added the products and the orders api routine" />
+    <MESSAGE value="Removed the console log in the product page" />
+    <MESSAGE value="Renamed the incart to inCart" />
+    <MESSAGE value="Order id inclusion" />
+    <MESSAGE value="Included the response headers for the cors issue" />
+    <MESSAGE value="Included the userrs and auth routes and helper services" />
+    <MESSAGE value="Included the code to dispaly the user details to the front end" />
+    <option name="LAST_COMMIT_MESSAGE" value="Included the code to dispaly the user details to the front end" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1840" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598680782249">
+      <screen x="1280" y="23" width="1920" height="1003" />
+    </state>
+    <state x="1840" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.777/1280.23.1920.1003@1280.23.1920.1003" timestamp="1598680782249" />
+    <state width="1878" height="272" key="GridCell.Tab.0.bottom" timestamp="1598710189305">
+      <screen x="1280" y="23" width="1920" height="1003" />
+    </state>
+    <state width="1878" height="272" key="GridCell.Tab.0.bottom/0.23.1280.777/1280.23.1920.1003@1280.23.1920.1003" timestamp="1598710189305" />
+    <state width="1878" height="272" key="GridCell.Tab.0.center" timestamp="1598710189303">
+      <screen x="1280" y="23" width="1920" height="1003" />
+    </state>
+    <state width="1878" height="272" key="GridCell.Tab.0.center/0.23.1280.777/1280.23.1920.1003@1280.23.1920.1003" timestamp="1598710189303" />
+    <state width="1878" height="272" key="GridCell.Tab.0.left" timestamp="1598710189286">
+      <screen x="1280" y="23" width="1920" height="1003" />
+    </state>
+    <state width="1878" height="272" key="GridCell.Tab.0.left/0.23.1280.777/1280.23.1920.1003@1280.23.1920.1003" timestamp="1598710189286" />
+    <state width="1878" height="272" key="GridCell.Tab.0.right" timestamp="1598710189304">
+      <screen x="1280" y="23" width="1920" height="1003" />
+    </state>
+    <state width="1878" height="272" key="GridCell.Tab.0.right/0.23.1280.777/1280.23.1920.1003@1280.23.1920.1003" timestamp="1598710189304" />
+    <state width="243" height="457" key="HiddenNamespacesPopup" timestamp="1598629884734">
+      <screen x="1280" y="23" width="1920" height="1003" />
+    </state>
+    <state width="243" height="457" key="HiddenNamespacesPopup/0.23.1280.777/1280.23.1920.1003@1280.23.1920.1003" timestamp="1598629884734" />
+    <state x="1840" y="264" key="Vcs.Push.Dialog.v2" timestamp="1599055362518">
+      <screen x="1280" y="23" width="1920" height="1003" />
+    </state>
+    <state x="1840" y="264" key="Vcs.Push.Dialog.v2/0.23.1280.777/1280.23.1920.1003@1280.23.1920.1003" timestamp="1599055362518" />
+  </component>
+</project>
