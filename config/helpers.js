@@ -2,11 +2,12 @@ const Mysqli = require('mysqli');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 let conn = new Mysqli({
-    host: 'localhost',
+    host: 'http://49.207.214.198',
     post: 8889,
     user: 'root',
     passwd: 'root',
-    db: 'eCom'
+    db: 'eCom',
+    socketPath: '/Applications/MAMP/tmp/mysql/mysql.sock'
 });
 
 let db = conn.emit(false, '');

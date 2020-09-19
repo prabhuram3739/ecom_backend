@@ -52,7 +52,7 @@ router.get('/', cors(corsOptions),  (req, res) => {
 // Get Single Order
 router.get('/:id', cors(corsOptions),  async (req, res) => {
   let orderId = req.params.id;
-
+    console.log("Order response:", orderId);
   database.table('orders_details as od')
       .join([
         {
@@ -72,6 +72,7 @@ router.get('/:id', cors(corsOptions),  async (req, res) => {
       .filter({'o.id': orderId})
       .getAll()
       .then(orders => {
+          console.log("Order response:", orders);
         if (orders.length > 0) {
           res.json(orders);
         } else {
@@ -83,17 +84,13 @@ router.get('/:id', cors(corsOptions),  async (req, res) => {
 
 // Place New Order
 router.post('/new', cors(corsOptions),  async (req, res) => {
-  // let userId = req.body.userId;
-  // let data = JSON.parse(req.body);
   let {userId, products, razorpay_order_id, razorpay_payment_id, razorpay_signature} = req.body;
 
   if (userId !== null && userId > 0 && !isNaN(userId)) {
-      console.log(razorpay_order_id);
     database.table('orders')
         .insert({
             user_id: userId
         }).then((newOrderId) => {
-console.log("New Order Id:", newOrderId);
       if (newOrderId > 0) {
         /* using async to avoid usage of then with the await */
         products.forEach(async (p) => {
@@ -138,7 +135,8 @@ console.log("New Order Id:", newOrderId);
       res.json({
         message: `Order successfully placed with order id ${newOrderId}`,
         success: true,
-        order_id: razorpay_order_id,
+          order_id: newOrderId,
+        razorpay_order_id: razorpay_order_id,
         products: products
       })
     }).catch(err => res.json(err));
@@ -154,38 +152,14 @@ console.log("New Order Id:", newOrderId);
 router.post('/payment', cors(corsOptions),  async (req, res) => {
   setTimeout(() => {
       let params = req.body;
-console.log(params);
-      //console.log(req.body);
-    //res.status(200).json({success: true});
-      /* Razorpay Instance module */
-      /*instance.orders.create(params).then((err, data) => {
-          console.log("Order Response:", data);
-          res.status(200).json({data: data, success: true});
-      }).catch((error) => {
-          res.json({message: 'Response from Razorpay failed', success: false});
-      });*/
-
       instance.orders.create(params, function(err, order) {
           if(order) {
-              console.log("Order Response:", order);
               res.status(200).json({data: order, success: true});
           } else {
               console.log(err);
           }
       });
 }, 3000);
-
-
-  /*setTimeout(() => {
-      params = req.body;*/
-        /* Razorpay Instance module */
-        /*razorpayInstance.instance.orders.create(params).then((data) => {
-            console.log(data);
-            res.status(200).json({success: true});
-        }).catch((error) => {
-            res.status(400).json({success: failed});
-        });
-    }, 3000);*/
 });
 
 //Verify the payment
@@ -193,17 +167,13 @@ router.post("/payment/verify", (req,res) => {
     body=req.body.razorpay_order_id + "|" + req.body.razorpay_payment_id;
     var crypto = require("crypto");
     var expectedSignature = crypto.createHmac('sha256', 'umA2DsU8gEOKuwBxxy49OKd3').update(body.toString()).digest('hex');
-
-    console.log("Signature" +  req.body.razorpay_signature);
-    console.log("Expected Signature:" +  expectedSignature);
-
     var response = {"status": false};
 
     if(expectedSignature === req.body.razorpay_signature) {
         response = {"status": true};
+        console.log("Signature Verification Status:", response.status);
         res.status(200).json(response);
     }
-
 });
 
 
