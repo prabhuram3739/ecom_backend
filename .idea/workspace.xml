@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bb1a9e3-7025-4851-a4d6-f88e0786725f" name="Default Changelist" comment="Included the code to dispaly the user details to the front end" />
+    <list default="true" id="5bb1a9e3-7025-4851-a4d6-f88e0786725f" name="Default Changelist" comment="Included the code to dispaly the user details to the front end">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +50,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.14.1" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.12.62" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
@@ -83,6 +87,7 @@
       <workItem from="1599452688063" duration="518000" />
       <workItem from="1599898337337" duration="6253000" />
       <workItem from="1600411353023" duration="12935000" />
+      <workItem from="1600856039691" duration="2819000" />
     </task>
     <task id="LOCAL-00001" summary=" Backend code base commit to the git">
       <created>1598610227845</created>
@@ -202,21 +207,25 @@
       <screen x="1280" y="23" width="1920" height="1003" />
     </state>
     <state x="1840" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.777/1280.23.1920.1003@1280.23.1920.1003" timestamp="1598680782249" />
-    <state width="1878" height="272" key="GridCell.Tab.0.bottom" timestamp="1598710189305">
-      <screen x="1280" y="23" width="1920" height="1003" />
+    <state width="1238" height="179" key="GridCell.Tab.0.bottom" timestamp="1600887988098">
+      <screen x="0" y="23" width="1280" height="723" />
     </state>
+    <state width="1238" height="179" key="GridCell.Tab.0.bottom/0.23.1280.723@0.23.1280.723" timestamp="1600887988098" />
     <state width="1878" height="272" key="GridCell.Tab.0.bottom/0.23.1280.777/1280.23.1920.1003@1280.23.1920.1003" timestamp="1598710189305" />
-    <state width="1878" height="272" key="GridCell.Tab.0.center" timestamp="1598710189303">
-      <screen x="1280" y="23" width="1920" height="1003" />
+    <state width="1238" height="179" key="GridCell.Tab.0.center" timestamp="1600887988097">
+      <screen x="0" y="23" width="1280" height="723" />
     </state>
+    <state width="1238" height="179" key="GridCell.Tab.0.center/0.23.1280.723@0.23.1280.723" timestamp="1600887988097" />
     <state width="1878" height="272" key="GridCell.Tab.0.center/0.23.1280.777/1280.23.1920.1003@1280.23.1920.1003" timestamp="1598710189303" />
-    <state width="1878" height="272" key="GridCell.Tab.0.left" timestamp="1598710189286">
-      <screen x="1280" y="23" width="1920" height="1003" />
+    <state width="1238" height="179" key="GridCell.Tab.0.left" timestamp="1600887988096">
+      <screen x="0" y="23" width="1280" height="723" />
     </state>
+    <state width="1238" height="179" key="GridCell.Tab.0.left/0.23.1280.723@0.23.1280.723" timestamp="1600887988096" />
     <state width="1878" height="272" key="GridCell.Tab.0.left/0.23.1280.777/1280.23.1920.1003@1280.23.1920.1003" timestamp="1598710189286" />
-    <state width="1878" height="272" key="GridCell.Tab.0.right" timestamp="1598710189304">
-      <screen x="1280" y="23" width="1920" height="1003" />
+    <state width="1238" height="179" key="GridCell.Tab.0.right" timestamp="1600887988097">
+      <screen x="0" y="23" width="1280" height="723" />
     </state>
+    <state width="1238" height="179" key="GridCell.Tab.0.right/0.23.1280.723@0.23.1280.723" timestamp="1600887988097" />
     <state width="1878" height="272" key="GridCell.Tab.0.right/0.23.1280.777/1280.23.1920.1003@1280.23.1920.1003" timestamp="1598710189304" />
     <state width="243" height="457" key="HiddenNamespacesPopup" timestamp="1598629884734">
       <screen x="1280" y="23" width="1920" height="1003" />
