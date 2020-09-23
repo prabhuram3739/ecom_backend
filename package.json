@@ -3,9 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "heroku-postbuild": "ng build --prod",
-    "start": "node app.js",
-    "postinstall": "ng build --aot --prod && mv dist/* ."
+    "start": "node app.js"
   },
   "dependencies": {
     "bcrypt": "^5.0.0",
