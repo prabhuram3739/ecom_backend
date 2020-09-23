@@ -79,5 +79,5 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', productsRoute);
 app.use('/orders', ordersRoute);
-app.listen(process.env.PORT || 3000);
+app.listen(process.env.PORT || 3001);
 module.exports = app;
