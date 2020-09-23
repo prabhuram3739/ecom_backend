@@ -2,12 +2,11 @@ const Mysqli = require('mysqli');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 let conn = new Mysqli({
-    host: 'http://49.207.214.198',
-    post: 8889,
-    user: 'root',
-    passwd: 'root',
-    db: 'eCom',
-    socketPath: '/Applications/MAMP/tmp/mysql/mysql.sock'
+    host: 'us-cdbr-east-02.cleardb.com',
+    port: 3306,
+    user: 'b3693c54bb5b43',
+    passwd: '25e1fe81',
+    db: 'heroku_18cf1001988c81f'
 });
 
 let db = conn.emit(false, '');
