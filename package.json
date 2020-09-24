@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node server.js",
     "start:dev": "nodemon ./bin/www"
   },
   "engines": {
