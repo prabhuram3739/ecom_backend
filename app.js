@@ -85,5 +85,5 @@ app.use(express.static(__dirname + '/'));
 app.get('*', function(req, res) {
     res.sendFile(path.join(__dirname+ '/'));
 });
-app.listen(process.env.PORT || 3001);
+app.listen(process.env.PORT || 3000);
 module.exports = app;
