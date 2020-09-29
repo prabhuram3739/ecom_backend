@@ -23,9 +23,10 @@
     "mysqli": "^3.0.11",
     "razorpay": "^2.0.6",
     "swagger-jsdoc": "^4.0.0",
-    "swagger-ui-express": "^4.1.4"
+    "swagger-ui-express": "^4.1.4",
+    "cors": "^2.8.5"
   },
   "devDependencies": {
-    "cors": "^2.8.5"
+
   }
 }
